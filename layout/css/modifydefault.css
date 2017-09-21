@@ -1,0 +1,309 @@
+/*PANEL POSITIONING*/
+
+#leftpanel {
+  width: 36%;
+  top: 80px;
+  left: 0;
+  background: #fff;
+  background-image: url('../img/green.png'), url('../img/bgman.png');
+  background-repeat: no-repeat, repeat;
+  height: 100vh;
+  position: fixed;
+}
+
+#rightpanel {
+  background: #fff;
+  top: 80px;
+  right: 0;
+  height: 100vh;
+  width: 36%;
+  position: fixed;
+  background-image: url('../img/bgman.png');
+}
+
+#toppanel {
+  background: white;
+  position: sticky;
+  top: 0;
+  height: 80px;
+  z-index: 100;
+  text-align: center;
+  margin-right: 22%;
+}
+
+#bottompanel {
+  z-index: 10000;
+  background: white;
+  opacity: 0.7;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  /*background-image: url('../img/bgman.png');*/
+  background-repeat: repeat-x;
+  background-position: top;
+}
+
+#main {
+  background: #fff;
+  position: sticky;
+  z-index: 99;
+}
+
+#wrapper {
+  background: #fff;
+}
+
+
+/*HEADER*/
+
+body {
+  background-color: #fff!important;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif
+}
+
+p.item {
+  text-align: center;
+  position: absolute;
+}
+
+#main {
+  /*background-color: #828181;*/
+  border: 1px solid #000000;
+  background: #fff;
+  padding: 10px 8px;
+}
+
+select {
+  display: none;
+}
+
+#header {
+  background-color: #fff;
+  border: none!important;
+  margin-top: 25px;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+}
+
+#header h2 {
+  text-align: center;
+  margin: 25px;
+  font-weight: lighter;
+}
+
+#lbHeaderH2 h2 {
+  text-align: center!important;
+}
+
+h2 {
+  font-family: 'Lato', sans-serif;
+}
+
+#header#lbHeaderP {
+  float: left;
+}
+
+#hlThisIsQueueIt {
+  text-decoration: none;
+}
+
+#main_t.t {
+  background-image: none;
+  /*background-color: #828181;*/
+  background: #fff;
+  /*position: absolute;*/
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  width: 100%;
+}
+
+#main_c.c {
+  background: #fff;
+  background-image: none;
+  padding: 0 0 0 0;
+}
+
+
+/*MIDDLE*/
+
+.progressbar {
+  background-color: #fff;
+  border: 1px solid black;
+  border-radius: 0;
+}
+
+.processbar {
+  overflow: visible;
+  margin: 0 0 0 0;
+}
+
+.processbar-box {
+  text-align: left;
+  color: #000000;
+  margin: 50px 0 20px;
+}
+
+.processbar-box .holder {
+  padding: 0;
+}
+
+.processbar-box .holder .larger {
+  color: #000000;
+}
+
+.warning-box {
+  /*background-color: #828181;*/
+  background: #fff;
+  background-image: none;
+  border: none;
+  padding: 24px 50px 21px;
+}
+
+#MainPart_divProgressbarBox_Holder.holder {
+  background-image: none;
+  /*background-color: #828181;*/
+  background: #fff;
+  border: none;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+}
+
+#MainPart_divTimeBox_Holder_Frame.frame {
+  /*background-color: white!important;*/
+  background: #f1f1f1;
+  border: none;
+  border-radius: 20px;
+  width: 100%;
+}
+
+#MainPart_divTimeBox_Holder.holder {
+  /*background-color: #828181;*/
+  background: #fff;
+  /*width: 100%;*/
+}
+
+.time-box {
+  margin: 0 0 0 0;
+  min-width: 100%;
+}
+
+.time-box .frame {
+  min-height: 0;
+  margin: 0 0 20px 0;
+}
+
+#MainPart_divProgressbarBox.processbar-box {
+  background-image: none;
+}
+
+#MainPart_aExitLine {
+  text-decoration: none;
+  color: #000000;
+}
+
+#MainPart_divExitLine.block {
+  font-weight: 600;
+}
+
+#MainPart_inpEmailAddress {
+  background: transparent;
+  border: 1px solid;
+  border-radius: 3px;
+  padding: 10px 65px 10px 10px;
+  color: #6a6969;
+}
+
+#MainPart_inpEmailAddress.item-input {
+  float: left;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 100!important;
+}
+
+input::placeholder {
+  color: #999999;
+  font-weight: 300;
+}
+
+.btn {
+  background-color: #3daf2c;
+  border-radius: 2px;
+  float: right;
+  padding: 8px 50px;
+  font-size: 12px;
+}
+
+#content {
+  color: #000000;
+  text-align: justify;
+}
+
+#whatisthis {
+  padding: 20px 0 20px 0;
+}
+
+.block {
+  padding: 0 0 0 0;
+}
+
+.reminder-form {
+  margin: 0 0;
+}
+
+.reminder-form h2 {
+  letter-spacing: 1px;
+}
+
+.reminder-form .item-input {
+  border: none;
+}
+
+
+/*BottomPANEL*/
+
+#sidebar {
+  display: none;
+}
+
+#MainPart_divVersionInfo.b {
+  background-image: none;
+  display: none;
+}
+
+.by {
+  /*display: none;*/
+  color: transparent;
+}
+
+#hlLinkToQueueTicket2 {
+  text-decoration: none;
+}
+
+#footer {
+  text-align: left;
+  padding: 20px 0 0 0;
+  color: #000000;
+  font-weight: 100;
+  /*background-image: url('../img/queue-it_logo_footer.png');
+  background-position: bottom right;
+  background-repeat: no-repeat;*/
+  width: 100%;
+}
+
+#footer a {
+  color: #000000;
+}
+
+#middlepanel {
+  height: 30vh;
+  width: 100%;
+  margin-left: 10px;
+}
+
+#middlepanel_iframe {
+  width: 100%;
+  height: 100%;
+}

@@ -1,0 +1,61 @@
+﻿select {
+    background-image: url(select-arrow.png), -webkit-linear-gradient(#FAFAFA, #F4F4F4 40%, #E5E5E5);
+    background-image: url(select-arrow.png), -moz-linear-gradient(#FAFAFA, #F4F4F4 40%, #E5E5E5);
+}
+
+#main .t{
+    background: url('bg-main-t.png') no-repeat;
+	background-position: center;
+}
+
+#main .b {
+    background: url('bg-main-b.png') no-repeat;
+	background-position: center;
+}
+
+#main .c {
+    background: url('bg-main-c.png') repeat-y;
+	background-position: center;
+}
+
+.warning-box {
+    background: url('bg-boxes.jpg') repeat-y 100% 0;
+}
+
+.processbar-box {
+    background: url('bg-box-shadow.png') no-repeat 50% 100%;
+}
+
+.processbar-box .holder {
+    background: url('bg-boxes.jpg') repeat-y;
+}
+
+.processbar span {
+    background: url('ico-round.png') no-repeat;
+}
+
+#footer .by {
+    background: url('logo2.png') no-repeat;
+}
+
+.progressbar .progress {
+	background-color: #20ac00;
+    background-image: url('progress2.png');
+}
+
+.progressbar .progress.updated {
+    background-image: url('progress2-1.gif');
+}
+
+.progressbar .progress .runner {
+    background-image: url('player_right_walk1-0.2.gif');
+}
+
+.progressbar .progress .runner.paused {
+    background-image: url('person_pause.png');
+}
+
+.hidden-overlay-component{
+    content:url("b065776b-36c5-4279-80fd-25c3b909d925_javascript.gif");
+}
+
